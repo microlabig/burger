@@ -1,8 +1,14 @@
+.sections{
+    overflow: hidden;
 
-.sections__list{
-    list-style: none;    
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
 }
 
-.sections__list-item{
+.sections__block{
     height: 100%;
 }

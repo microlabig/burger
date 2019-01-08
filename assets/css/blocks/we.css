@@ -1,0 +1,20 @@
+.sections--we{
+    background-image: url('../../img/we/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+
+.sections--we .sections__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sections--we .sections__title{
+    color: black;
+
+    margin-bottom: 55px;
+}
+

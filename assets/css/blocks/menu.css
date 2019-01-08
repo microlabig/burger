@@ -29,13 +29,6 @@
     margin-right: 0;
 }
 
-.menu__list-item:last-child .menu__text{
-    border-radius: 5px;
-    background-color: #e45028; 
-
-    padding: 8px 17px;
-}
-
 .menu__text{
     display: inline-block;
     vertical-align: middle;
@@ -46,4 +39,8 @@
     font-weight: 500;
     font-size: 13px;
     color: #fff;
+}
+
+.menu__list-item:hover .menu__text{
+    text-decoration: underline;
 }
