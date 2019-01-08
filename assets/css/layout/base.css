@@ -1,0 +1,62 @@
+body {
+    font-family: 'ubuntu', Helvetica, sans-serif;
+    line-height: 1.45;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: antialiased;    
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+ul, 
+li {
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    font-family: 'gagalin', Verdana, Tahoma, sans-serif;
+    line-height: 1.45;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: antialiased; 
+}
+
+h2 {
+    font-family: 'lifehack', fantasy, sans-serif;
+    line-height: 1.45;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: antialiased; 
+}
+
+.wrapper{
+    height: 100%;
+}
+
+.sections{
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sections--first-screen{
+    background-image: url('../../img/first-screen/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
