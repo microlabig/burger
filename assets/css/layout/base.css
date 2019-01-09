@@ -23,7 +23,7 @@ li {
     padding:0;
 }
 
-h1 {
+h1,h2,h4 {
     font-family: 'gagalin', Verdana, Tahoma, sans-serif;
     line-height: 1.45;
     margin: 0;
@@ -34,7 +34,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h2, h3, h4 {
+h3 {
     font-family: 'lifehack', fantasy, sans-serif;
     line-height: 1.45;
     margin: 0;
@@ -48,7 +48,7 @@ h2, h3, h4 {
 
 .toorder{
     border-radius: 5px;
-    background-color: #e45028; 
+    background-color: #e45128; 
 
     text-decoration: none;
     text-transform: uppercase;
@@ -58,4 +58,9 @@ h2, h3, h4 {
 
     padding: 8px 17px;
     height: 35px;
+}
+
+.toorder:hover{
+    background-color: #e48c28; 
+    transition: .4s;
 }

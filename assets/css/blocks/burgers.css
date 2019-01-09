@@ -21,6 +21,8 @@
 
 /* auto-scroll */
 .burgers__auto-scroll{
+    display: inline-block;
+    
     width: 15px;
     height: 26px;
 
