@@ -1,0 +1,16 @@
+.sections--reviews{
+    /*
+    background-image: url('../../img/reviews/');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    */
+}
+
+.sections--reviews .sections__block{
+    /*
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    */
+}
