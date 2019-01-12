@@ -1,9 +1,5 @@
-.sections--team{
-    background-image: url('../../img/team/bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; 
 
+.sections--team{   
     display: flex;
     justify-content: flex-end;
 }

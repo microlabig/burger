@@ -64,3 +64,34 @@ h3 {
     background-color: #e48c28; 
     transition: .4s;
 }
+
+/* sections bg */
+.sections--first-screen{  
+    background-image: url('../../img/first-screen/bg.jpg');    
+}
+.sections--we{
+    background-image: url('../../img/we/bg.jpg');
+    
+}
+.sections--burgers{
+    background-image: linear-gradient(to top, #f9b43b, #eb8c38 48%, #f9b43b 74%);   
+}
+.sections--team{
+    background-image: url('../../img/team/bg.jpg');
+    
+}
+.sections--menu{
+    background-image: url('../../img/menu/bg.jpg');
+    
+}
+.sections--howwork{
+    background-image: url('../../img/howwork/bg.jpg');
+    
+}
+.sections--form{
+    background-image: url('../../img/form/bg_texture.png'), url('../../img/form/bg.jpg');  
+    /*background-blend-mode: exclusion;*/
+}
+.sections--contacts{
+    background-image: url('../../img/contacts/bg.jpg');
+}

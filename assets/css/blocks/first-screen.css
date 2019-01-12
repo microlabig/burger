@@ -1,14 +1,7 @@
 /* first-screen */
-
 .sections--first-screen{
     position: relative;
-
-    background-image: url('../../img/first-screen/bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;  
 }
-
 .sections__content{
     display: flex;
     align-items: center;
