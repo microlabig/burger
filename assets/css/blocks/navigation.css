@@ -1,3 +1,8 @@
+
+.navigation{
+    display: flex;
+}
+
 .navigation__list{
     list-style: none;
 
@@ -23,8 +28,7 @@
     margin-right: 18px;    
 }
 
-.navigation__item:last-child:after, 
-.navigation__item:nth-last-child(2):after{
+.navigation__item:last-child:after{
     content:'';
     margin-right: 0;
 }
