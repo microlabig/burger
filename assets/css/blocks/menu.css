@@ -1,5 +1,6 @@
 .sections--menu .sections__block{
     display: flex;
+    flex-direction: initial;
     justify-content: space-between;
 }
 

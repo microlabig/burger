@@ -20,6 +20,9 @@
     
     margin: 0 auto;
 }
+.team .sections__title{
+    margin-bottom: 46px;
+}
 
 .team__title{
     color:#f9b43b;
