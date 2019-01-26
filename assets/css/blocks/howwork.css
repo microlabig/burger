@@ -4,3 +4,7 @@
     justify-content: center;
     align-items: center;
 }
+
+.sections--howwork .sections__title{
+    margin-bottom: 50px;
+}
