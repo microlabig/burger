@@ -2,6 +2,8 @@
 @import url('./layout/fonts.css');
 @import url('./layout/base.css');
 
+@import url('./blocks/animation.css');
+
 @import url('./blocks/sections.css');
 
 @import url('./blocks/first-screen.css');

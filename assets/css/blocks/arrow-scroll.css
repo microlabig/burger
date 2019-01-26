@@ -4,3 +4,7 @@
 
     margin-bottom: 40px;
 }
+
+.arrow-scroll__img{
+    animation: Up-Down 1s infinite;
+}
