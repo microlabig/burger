@@ -7,13 +7,13 @@
     display: flex;
 }
 
-.advantage__list-item{
+.advantage__item{
     width: 300px;
 
     margin-right: 20px;
 }
 
-.advantage__list-item:last-child{
+.advantage__item:last-child{
     margin-right: 0;
 }
 

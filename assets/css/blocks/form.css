@@ -73,10 +73,10 @@
     list-style: none;
     margin-bottom: 0;
 }
-.form__row--list-item{
+.form__row--item{
     margin-right: 20px;
 }
-.form__row--list-item:last-child{
+.form__row--item:last-child{
     margin-right: 0;
 }
 

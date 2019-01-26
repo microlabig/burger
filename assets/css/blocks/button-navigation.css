@@ -1,7 +1,8 @@
 .button-nav{
-    position: relative;
+    position: fixed;
 
     margin-top:90px;
+    z-index: 10;
 }
 
 .button-nav__list{
@@ -37,12 +38,12 @@
     transition: border-color .4s;
 }
 
-.button-nav__list-item:hover .button-nav__dot:after{
+.button-nav__item:hover .button-nav__dot:after{
     border-color: #fff;
 }
 
 /*
-.button-nav__list-item:first-child .button-nav__dot:after{
+.button-nav__item:first-child .button-nav__dot:after{
     border-color: #fff;
 }
 */

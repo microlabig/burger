@@ -22,6 +22,8 @@
     width: 15px;
     height: 26px;
 
+    transform: rotate(90deg);
+
     overflow: hidden;
 
     margin-right: 20px;
@@ -39,7 +41,7 @@
 }
 
 .burgers__auto-scroll--right{
-    transform: rotate(-180deg);
+    transform: rotate(-90deg);
 
     margin-left: 39px;
 }
@@ -139,14 +141,14 @@
     padding:28px 22px;
 }
 
-.burgers__charackters-list-item{
+.burgers__charackters-item{
     display: flex;
     align-items: center;
 
     margin-bottom: 20px;
 }
 
-.burgers__charackters-list-item:last-child{
+.burgers__charackters-item:last-child{
     margin-bottom: 0;
 }
 

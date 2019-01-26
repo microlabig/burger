@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box; 
+}
+
+/*
+html{
+    font-size: 72px;
+}
+*/
+
 body {
     font-family: 'ubuntu', Helvetica, sans-serif;
     line-height: 1.45;
@@ -5,11 +15,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-smoothing: antialiased;    
 }
-
-* {
-    box-sizing: border-box; 
-}
-
 
 html,
 body {
@@ -21,6 +26,10 @@ ul,
 li {
     margin:0;
     padding:0;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
 }
 
 h1,h2,h4 {
@@ -43,7 +52,11 @@ h3 {
 }
 
 .wrapper{
-    height: 100%;
+    overflow: hidden;
+}
+
+.content{
+    width: 100%;   
 }
 
 .button{
@@ -65,33 +78,3 @@ h3 {
     transition: .4s;
 }
 
-/* sections bg */
-.sections--first-screen{  
-    background-image: url('../../img/first-screen/bg.jpg');    
-}
-.sections--we{
-    background-image: url('../../img/we/bg.jpg');
-    
-}
-.sections--burgers{
-    background-image: linear-gradient(to top, #f9b43b, #eb8c38 48%, #f9b43b 74%);   
-}
-.sections--team{
-    background-image: url('../../img/team/bg.jpg');
-    
-}
-.sections--menu{
-    background-image: url('../../img/menu/bg.jpg');
-    
-}
-.sections--howwork{
-    background-image: url('../../img/howwork/bg.jpg');
-    
-}
-.sections--form{
-    background-image: url('../../img/form/bg_texture.png'), url('../../img/form/bg.jpg');  
-    /*background-blend-mode: exclusion;*/
-}
-.sections--contacts{
-    background-image: url('../../img/contacts/bg.jpg');
-}
