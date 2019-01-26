@@ -53,6 +53,7 @@ h3 {
 
 .wrapper{
     overflow: hidden;
+    position: relative;
 }
 
 .content{
